@@ -1,0 +1,353 @@
+/* CONTENT ALIGNMENT */
+
+.aligncenter,
+.alignnone,
+.alignright,
+.alignleft {
+  display: block;
+  margin: 1.6em auto;
+  clear: both;
+}
+
+.wp-caption {
+  color: #555;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.wp-caption-text {
+  font-size: 14px;
+  margin: 0;
+  padding: 0.6em 0.1em 0;
+  color: #c0c0c0;
+}
+
+.wp-caption.aligncenter {
+  text-align: center;
+}
+
+/* CUSTOM */
+
+h4.about-text {
+  font-size: 1.2em;
+}
+
+.text-portfolio ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.text-portfolio ul li {
+  line-height: 0.9em;
+  padding: 2px 0;
+  margin: 5px 0;
+}
+
+.text-portfolio ul li a,
+.text-portfolio ul li strong {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 14px;
+}
+
+.text-portfolio ul li strong {
+  border-bottom: 1px dashed rgba(17, 17, 17, 0.25);
+}
+
+.text-portfolio ul li a {
+  border-bottom: 1px dashed rgba(166, 93, 70, 0.25);
+}
+
+.text-portfolio ul li h4 {
+  font-size: 1em;
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-weight: bold;
+  margin: 0;
+  color: #111111;
+  line-height: 19px;
+}
+
+.text-portfolio ul li h4 span,
+.text-portfolio ul li em {
+  color: white;
+  float: right;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: inline-block;
+  font-family: Lato, Arial, serif;
+  font-variant: all-petite-caps;
+  line-height: 15px;
+  padding: 1px 0.4em 3px 0.4em;
+  background: #333;
+  border-radius: 2px;
+  margin-top: 1px;
+  font-style: normal;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -1px;
+  margin-right: 2px;
+  cursor: default;
+}
+
+.text-portfolio ul li h4 span i {
+  font-weight: normal;
+}
+
+.text-portfolio ul li.makerspace i {
+  font-size: .85em;
+  position: relative;
+  top: 1px;
+}
+
+span.label.wip {
+  background: #d64b4b;
+}
+
+span.label.curriculum i img {
+  position: relative;
+  top: 2px;
+  height: 11px;
+}
+
+
+span.label.winner {
+  background: #00b49c;
+}
+
+.text-portfolio ul li em i {
+  margin-right: 2px;
+}
+
+.stamp {
+  float: left;
+  width: 114px;
+  height: 134px;
+  background: url(../images/bckg/stamp.png) 0 0 no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.letter-info {
+  float: right;
+}
+
+.letter-info h4 {
+  margin: 0.5em 0 0 0;
+  font-size: 2.2em;
+  line-height: 120%;
+  font-family: "Sacramento", cursive;
+  color: #333;
+  text-align: right;
+}
+
+.letter-info p {
+  margin: 0.6em 0 0 0;
+  color: #aaa;
+  font-size: 0.8em;
+  line-height: 15px;
+  text-align: right;
+}
+
+.stamp .img-wrap {
+  background: #678594;
+  height: 114px;
+  width: 94px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.stamp img {
+  left: 25px;
+  display: block;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 30px;
+}
+
+.text-portfolio ul li p {
+  font-family: Lato, Arial, serif;
+  margin: 2px 0;
+  font-size: 0.8em;
+  color: #666;
+  line-height: 1.2em;
+}
+
+.service p {
+  margin-top: 0;
+  font-family: Lato, Arial, serif;
+  font-size: 0.75em;
+  color: #999;
+  line-height: 1.8em;
+}
+
+.service p a {
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px dashed;
+}
+
+.service h4 {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.cover {
+  background-color: #00a77d;
+  background-position: center bottom;
+}
+
+.cover h3 {
+  width: 91%;
+  font-weight: bold;
+}
+
+input:not([type="submit"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]),
+.w420 .contact-form input,
+.w420 .contact-form textarea,
+textarea,
+select {
+  width: 100% !important;
+}
+
+.work-desc a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-weight: bold;
+}
+
+.history-unit .work-desc h4 {
+  margin-top: 7px;
+}
+
+.content h3 {
+  margin: 1.65em 0 1.75em 0;
+}
+
+.social {
+  margin-bottom: 0;
+}
+
+.contact-form textarea {
+  float: none;
+  width: 100% !important;
+}
+
+.rm-close span {
+  margin-top: 22px;
+}
+
+.launch {
+  margin: 0 auto;
+  padding: 0;
+  width: 61%;
+}
+
+.launch .btn {
+  padding: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+  width: 110px;
+  font-weight: bolder;
+}
+
+.w420 .launch .btn {
+  padding: 10px 0;
+  border-radius: 5px;
+  display: inline-block;
+  width: 110px;
+  font-weight: bolder;
+}
+
+.btn.resume {
+  float: left;
+}
+
+.btn.cv {
+  float: right;
+}
+
+.history-unit.first {
+  padding-top: 0;
+}
+
+.history-unit.last {
+  padding-bottom: 0;
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) {
+  .alignnone {
+    margin: 3em 0;
+  }
+
+  .aligncenter {
+    margin: 2.2em auto;
+  }
+
+  .alignleft,
+  .alignright {
+    max-width: 50%;
+  }
+
+  .alignright {
+    float: right;
+    margin: 0.4em 0 1em 2em;
+  }
+
+  .alignleft {
+    float: left;
+    margin: 0.4em 2em 1em 0;
+  }
+}
+
+.w420 .stamp {
+  float: left;
+}
+
+.w420 .letter-info {
+  float: right;
+}
+
+.w420 .history-unit .work-desc h4 {
+  font-size: 0.84em;
+  margin-top: 0;
+}
+
+.w420 .hidexs {
+  display: none;
+}
+
+.w420 .btn.resume,
+.w420 .btn.cv {
+  float: none;
+  display: block;
+  margin: 0px auto;
+}
+
+a.btn.resume.github {
+  float: none;
+  width: auto;
+  padding: 10px 20px;
+  display: inline;
+}
+
+a.btn.resume.github i {
+  position: relative;
+  top: 5px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+  a.btn.resume.github span {
+    display: none;
+  }
+}
